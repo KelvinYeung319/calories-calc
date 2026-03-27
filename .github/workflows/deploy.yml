@@ -15,7 +15,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24 # 升級到 24 以消除警告
           cache: 'npm'
       - name: Install and Build
         run: |
